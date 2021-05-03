@@ -1,0 +1,18 @@
+///// All Mixins 
+
+@mixin Flexboxx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3.2rem;
+    font-size: 1.3rem;    
+}
+
+@mixin p-styles {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+

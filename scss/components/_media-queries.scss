@@ -1,0 +1,53 @@
+///// Media Queries
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(140px, 1fr));
+        max-width: 1044px;
+    }
+
+    .box_1 {
+        border-radius: 7px 0 0 7px;
+    }
+
+    .box_3 {
+        border-radius: 0 7px 7px 0;
+    }
+
+    .btn {
+        margin-top: 50%;
+        font-size: 1rem;
+        
+    }
+
+    .btn-1 {
+        &:hover {
+            background: $Bright-orange;
+            color: $p-color;
+            transition: 0.3s ease-out, color 0.3s ease-out;
+        }
+        
+    }
+
+    .btn-2 {
+        &:hover {
+            background: $Dark-cyan;
+            color: $p-color;
+            transition: 0.3s ease-out, color 0.3s ease-out;
+        }
+        
+    }
+
+    .btn-3 {
+        &:hover {
+            background: $Very-dark-cyan;
+            color: $p-color;
+            transition: 0.3s ease-out, color 0.3s ease-out;
+        }
+        
+    }
+    
+      
+
+}
